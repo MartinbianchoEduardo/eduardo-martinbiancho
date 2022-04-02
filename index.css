@@ -4,11 +4,33 @@ body {
     font-family:'Courier New', Courier, monospace;
 }
 
-ul {
+.header-container {
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
     align-items: center;
+    justify-content: space-around;
+}
+
+.header-container h1{
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+
+.menu {
+    display: flex;
+    gap: 4rem;
+}
+
+.menu-item {
+    font-weight: 600;
+    color: black;
+    text-transform: lowercase;
+    font-size: 0.9rem;
+    cursor: default;
+    transition: all 0.25s;
+}
+
+.menu-item:hover {
+    opacity: 0.55;
 }
 
 a {
@@ -24,32 +46,48 @@ header h1, h2 {
 header img {
     width: 200px;
     height: 200px;
-    
-    border: 1px solid black;
+    opacity: 0.1;
 } 
 
+header img:hover {
+    
+    opacity: 1;
+    transition: all 2s;    
+}
+
 .center {
-    text-align:left;
+    text-align:center;
 }
 
-main {
-    color:black;    
+.btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
 }
+
+.btn {
+    background: rgb(243, 242, 241);
+    width: 11.25rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: #30302f 0px 10px 15px -10px;
+    transition: all 0.25s;
+}
+
+.btn:hover {
+    opacity: 0.55;
+}
+
 main h3 {
-    margin-top: 40px;
-    color: white;
-}
-
-nav a:hover {
-    color: black;
+    margin-top: 50px; 
 }
 
 footer img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 2px solid black;
-    
 }
 
 footer {
@@ -58,8 +96,8 @@ footer {
 }
 
 footer a {
-    margin: 30px;
-    margin-top: 50px;
+    margin: 15px;
+    margin-top: px;
     text-align: center;
 }
 
@@ -68,9 +106,13 @@ footer p {
 }
 
 footer p:hover {
-    color: white;
+    color: rgb(119, 116, 116);
 }
 
 .container {
     padding: 10px 50px;
+}
+
+footer a {
+    color: black;
 }
