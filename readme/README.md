@@ -1,2 +1,3 @@
-Learning purposes
-CSS and HTML only
+ Learning purposes
+ 
+ CSS and HTML only
