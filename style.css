@@ -87,6 +87,7 @@ main h3 {
 
 .main-content {
     line-height: 30px;
+    border-bottom: 0.2rem solid #010101;
 }
 
 footer img {
@@ -109,6 +110,7 @@ footer a {
 
 footer p {
     margin-top: 2px;
+    margin-bottom: 20px;
 }
 
 footer a:hover {
