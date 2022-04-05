@@ -1,5 +1,5 @@
 body {
-    color: #808080;
+    color: #202020;
     background-color: #f9f2ec
     ;
     font-family:'Courier New', Courier, monospace;
@@ -34,12 +34,6 @@ body {
     opacity: 0.55;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-
-}
-
 header h1, h2 {
     font-weight: 800;
 }
@@ -47,13 +41,13 @@ header h1, h2 {
 header img {
     width: 200px;
     height: 200px;
-    opacity: 0.1;
+    opacity: 0.9;
+    border-radius: 100px;
 } 
 
 header img:hover {
-    
     opacity: 1;
-    transition: all 2s;    
+    transition: all 0.4s;   
 }
 
 .center {
@@ -87,7 +81,7 @@ main h3 {
 
 .main-content {
     line-height: 30px;
-    border-bottom: 0.2rem solid #010101;
+    border-bottom: 0.1rem solid #010101;
 }
 
 footer img {
@@ -110,7 +104,6 @@ footer a {
 
 footer p {
     margin-top: 2px;
-    margin-bottom: 20px;
 }
 
 footer a:hover {
