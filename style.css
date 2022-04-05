@@ -1,8 +1,9 @@
 body {
     color: #202020;
-    background-color: #f9f2ec
-    ;
+    background-color: #f9f2ec;
     font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 25px 80px;
 }
 
 .header-container {
@@ -34,7 +35,7 @@ body {
     opacity: 0.55;
 }
 
-header h1, h2 {
+header h1 {
     font-weight: 800;
 }
 
@@ -60,7 +61,7 @@ main h3 {
 
 .main-content {
     line-height: 30px;
-    border-bottom: 0.1rem solid #010101;
+    border-bottom: 2px solid #010101;
 }
 
 footer img {
@@ -76,7 +77,7 @@ footer {
 
 footer a {
     margin: 20px;
-    margin-top: 55px;
+    margin-top: 20px;
     text-align: center;
     transition: 0.25s;
 }
@@ -87,10 +88,6 @@ footer p {
 
 footer a:hover {
     color: rgb(119, 116, 116);
-}
-
-.container {
-    padding: 10px 50px;
 }
 
 footer a {
