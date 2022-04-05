@@ -61,7 +61,7 @@ main h3 {
 
 .main-content {
     line-height: 30px;
-    border-bottom: 2px solid #010101;
+    margin-bottom: 40px;
 }
 
 footer img {
@@ -73,6 +73,7 @@ footer img {
 footer {
     display: flex;
     justify-content: center;
+    border-top: 1px solid black;
 }
 
 footer a {
