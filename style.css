@@ -54,27 +54,6 @@ header img:hover {
     text-align:center;
 }
 
-.btns {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-around;
-}
-
-.btn {
-    background: rgb(252, 249, 249);
-    width: 11.25rem;
-    height: 3rem;
-    border: none;
-    border-radius: 0.5rem;
-    box-shadow: #30302f 0px 10px 15px -10px;
-    transition: all 0.25s;
-}
-
-.btn:hover {
-    opacity: 0.55;
-}
-
 main h3 {
     margin-top: 50px; 
 }
