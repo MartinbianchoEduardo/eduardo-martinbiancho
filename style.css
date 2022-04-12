@@ -3,7 +3,7 @@ body {
     background-color: #f9f2ec;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    padding: 25px 80px;
+    padding: 25px 130px;
 }
 
 .header-container {
@@ -62,12 +62,18 @@ main h3 {
 .main-content {
     line-height: 30px;
     margin-bottom: 40px;
+    padding: 0px 100px;
 }
 
 footer img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    transition: 0.15s   ;
+}
+
+footer img:hover {
+    transform: translate(0px, -3px);
 }
 
 footer {
@@ -81,17 +87,12 @@ footer a {
     margin-top: 20px;
     text-align: center;
     transition: 0.25s;
+    cursor: default;
 }
 
 footer p {
     margin-top: 2px;
 }
 
-footer a:hover {
-    color: rgb(119, 116, 116);
-}
 
-footer a {
-    color: black;
-}
 
