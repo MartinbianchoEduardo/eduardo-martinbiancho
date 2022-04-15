@@ -1,6 +1,6 @@
 body {
     color: #202020;
-    background-color: #f9f2ec;
+    background-color: #E4F9E5;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
     padding: 25px 130px;
@@ -44,6 +44,7 @@ header img {
     height: 200px;
     opacity: 0.9;
     border-radius: 100px;
+    border: 3px solid black;
 } 
 
 header img:hover {
